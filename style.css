@@ -37,7 +37,6 @@ body{
     margin-top: auto;
     padding: 1vh;
     background-color: black;
-    color:white;
     justify-content: center;
     gap: 10px; 
 }
@@ -82,4 +81,19 @@ a{
 
 #login{
     background-color: rgb(4, 124, 252);
+}
+
+.hidden{
+    position: absolute;
+    left: -999999px;
+}
+button:hover {
+    filter: brightness(0.7); 
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0095f6; /* Instagram Blue */
+    background-color: white;
 }
