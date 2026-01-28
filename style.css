@@ -96,4 +96,8 @@ input:focus {
     outline: none;
     border-color: #0095f6; /* Instagram Blue */
     background-color: white;
+    
+}
+a:hover{
+    color:grey;
 }
